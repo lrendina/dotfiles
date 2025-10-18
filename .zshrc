@@ -30,25 +30,3 @@ fi
 # For a full list of active aliases, run `alias`.
 alias zshconfig="nvim ~/.zshrc"
 # alias ohmyzsh="nvim ~/.oh-my-zsh"
-
-# ----------------------
-# Git Aliases
-# ----------------------
-alias gi='git init'
-alias gro='git remote add origin'
-alias ga='git add'
-alias gaa='git add .'
-alias gcm='git commit -m'
-alias gpsh='git push'
-alias gpsho='git push -u origin'
-alias gss='git status -s'
-
-# ----------------------
-# Docker Aliases
-# ----------------------
-alias d='docker'
-alias dps='docker ps'
-alias dc='docker compose'
-alias dcu='docker compose up'
-alias dcd='docker compose down'
-alias dcud='docker compose up -d'
